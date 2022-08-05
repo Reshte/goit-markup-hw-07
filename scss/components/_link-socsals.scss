@@ -9,12 +9,12 @@
   color: #afb1b8;
 
   transition: background-color var(--anim-hover), color var(--anim-hover);
-}
 
-.socials__link:hover,
-.socials__link:focus {
-  background-color: var(--accent-color);
-  color: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: #ffffff;
+  }
 }
 
 .socials__icon {

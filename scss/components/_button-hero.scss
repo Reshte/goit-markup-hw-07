@@ -10,6 +10,7 @@
   background-color: var(--accent-color);
 
   cursor: pointer;
+
   margin-left: auto;
   margin-right: auto;
   padding: 10px 32px;
@@ -19,9 +20,9 @@
   border-color: transparent;
 
   transition: background-color var(--anim-hover);
-}
 
-.hero__btn:hover,
-.hero__btn:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }

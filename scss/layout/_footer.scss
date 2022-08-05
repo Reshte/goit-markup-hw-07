@@ -14,14 +14,6 @@
   margin-right: 70px;
 }
 
-.footer__logo {
-  display: block;
-
-  color: var(--white-text-color);
-  margin-right: 0;
-  margin-bottom: 20px;
-}
-
 .footer__title,
 .subcription__title {
   font-family: 'Roboto';
@@ -56,11 +48,11 @@
   justify-content: center;
 
   transition: background-color var(--anim-hover);
-}
 
-.footer__socials-link:focus,
-.footer__socials-link:hover {
-  background-color: #2196f3;
+  &:focus,
+  &:hover {
+    background-color: #2196f3;
+  }
 }
 
 .footer__icon {
@@ -84,10 +76,10 @@
 
   color: var(--white-text-color);
   transition: border-color var(--anim-hover);
-}
 
-.subcription__input:focus {
-  border-color: #eeeeee;
+  &:focus {
+    border-color: #eeeeee;
+  }
 }
 
 .subcription__btn {
