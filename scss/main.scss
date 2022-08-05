@@ -1,6 +1,7 @@
 //Utilits style
 @import './utilits/variabls';
 @import './utilits/visualy-hidden';
+@import './utilits/mixins';
 
 //Base styles
 @import './base/base';
@@ -25,6 +26,7 @@
 @import './layout/clients';
 @import './layout/footer';
 
-@import './layout/portfolio';
-
 @import './layout/modal-window';
+
+@import './layout/filter_portfolio';
+@import './layout/portfolio';
